@@ -43,14 +43,14 @@
     },
     "repoURL": {
       "type": "string",
-      "defaultValue": "https://github.com/jmservera/node-red-azure-webapp.git",
+      "defaultValue": "https://github.com/mdvanes/node-red-iot-azure-webapp.git",
       "metadata": {
         "description": "The URL for the GitHub repository that contains the project to deploy."
       }
     },
     "branch": {
       "type": "string",
-      "defaultValue": "master",
+      "defaultValue": "main",
       "metadata": {
         "description": "The branch of the GitHub repository to use."
       }
