@@ -19,4 +19,6 @@ When deployment fails with this error on the `web`/`sourcecontrols` resource:
 \"message\": \"The resource operation completed with terminal provisioning state 'Failed'.\"\r\n  }\r\n}"}]}
 ```
 
-Try again with a higher SKU, e.g. S1
+This deployment will also take too long, approximately 15 minutes.
+
+The service seems to be running afterwards. To still fix the error state, use the "Redeploy" button on the deployment view and select the same settings. Also try a higher SKU, e.g. B1. The deployment should complete without error within 1 minute.
