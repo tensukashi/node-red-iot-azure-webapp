@@ -1,1 +1,235 @@
-[{"id":"f6f2187d.f17ca8","type":"tab","label":"Flow 1","disabled":false,"info":""},{"id":"3cc11d24.ff01a2","type":"comment","z":"f6f2187d.f17ca8","name":"WARNING: please check you have started this container with a volume that is mounted to /data\\n otherwise any flow changes are lost when you redeploy or upgrade the container\\n (e.g. upgrade to a more recent node-red docker image).\\n  If you are using named volumes you can ignore this warning.\\n Double click or see info side panel to learn how to start Node-RED in Docker to save your work","info":"\nTo start docker with a bind mount volume (-v option), for example:\n\n```\ndocker run -it -p 1880:1880 -v /home/user/node_red_data:/data --name mynodered nodered/node-red\n```\n\nwhere `/home/user/node_red_data` is a directory on your host machine where you want to store your flows.\n\nIf you do not do this then you can experiment and redploy flows, but if you restart or upgrade the container the flows will be disconnected and lost. \n\nThey will still exist in a hidden data volume, which can be recovered using standard docker techniques, but that is much more complex than just starting with a named volume as described above.","x":350,"y":80,"wires":[]},{"id":"34d11ca221d1b562","type":"inject","z":"f6f2187d.f17ca8","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":240,"y":300,"wires":[["3c2b654667516f69"]]},{"id":"3c2b654667516f69","type":"function","z":"f6f2187d.f17ca8","name":"BONKIE","func":"\nreturn msg;","outputs":1,"noerr":0,"x":620,"y":300,"wires":[[]]}]
+[
+    {
+        "id": "edb4d97bb9a39362",
+        "type": "http in",
+        "z": "e59d719bcd361ba8",
+        "name": "KPN ",
+        "url": "/kpn",
+        "method": "post",
+        "upload": true,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 220,
+        "wires": [
+            [
+                "6f18cd3b7b7806fe",
+                "739c99fb91080fc6"
+            ]
+        ]
+    },
+    {
+        "id": "6f18cd3b7b7806fe",
+        "type": "http response",
+        "z": "e59d719bcd361ba8",
+        "name": "in",
+        "statusCode": "200",
+        "headers": {},
+        "x": 310,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b4a3bb670cc25776",
+        "type": "debug",
+        "z": "e59d719bcd361ba8",
+        "name": "Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d912389d1187fe36",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "name": "Convert STR",
+        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "cad975c17788c5e8",
+                "4b57a9d36892f78d"
+            ]
+        ]
+    },
+    {
+        "id": "739c99fb91080fc6",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "name": "Seperate",
+        "func": "p = msg.payload;\n\nmsg.payload = p[0];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "d912389d1187fe36"
+            ]
+        ]
+    },
+    {
+        "id": "bc30612841c6c00b",
+        "type": "inject",
+        "z": "e59d719bcd361ba8",
+        "name": "Function Test Green",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"bn\":\"urn:dev:DEVEUI:A8610A343125910B:\",\"bt\":1649769999,\"n\":\"temperature\",\"u\":\"Cel\",\"v\":30.42}]",
+        "payloadType": "json",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "739c99fb91080fc6"
+            ]
+        ]
+    },
+    {
+        "id": "cad975c17788c5e8",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "name": "Obtain Value",
+        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"urn:dev:DEVEUI:A8610A343125910B:\"&&\"temp\"))\n{\n   msg.payload = (p.v);\n   //msg.payload = Number(p); \n   return msg;\n}\nelse\n{\n   return;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 260,
+        "wires": [
+            [
+                "0e741299a3d466de",
+                "b4a3bb670cc25776",
+                "ebf96d0b13c36380"
+            ]
+        ]
+    },
+    {
+        "id": "ebf96d0b13c36380",
+        "type": "ThingspeakSendSimple",
+        "z": "e59d719bcd361ba8",
+        "name": "https://thingspeak.com",
+        "writekey": "thingspeak-writekey-here",
+        "fieldid": "2",
+        "x": 880,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "02d5937158ecdbd6",
+        "type": "inject",
+        "z": "e59d719bcd361ba8",
+        "name": "Function Test Red",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"bn\":\"urn:dev:DEVEUI:A8610A343125910B:\",\"bt\":1650356477},{\"n\":\"locOrigin\",\"vs\":\"KPNLORA\"},{\"n\":\"latitude\",\"u\":\"lat\",\"v\":51.917973},{\"n\":\"longitude\",\"u\":\"lon\",\"v\":4.432413},{\"n\":\"radius\",\"u\":\"m\",\"v\":1803.45459},{\"n\":\"locAccuracy\",\"u\":\"%\",\"v\":9999},{\"n\":\"locPrecision\",\"u\":\"%\",\"v\":9999},{\"n\":\"locTime\",\"vs\":\"1650356603369\"}]",
+        "payloadType": "json",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "739c99fb91080fc6"
+            ]
+        ]
+    },
+    {
+        "id": "0e741299a3d466de",
+        "type": "file",
+        "z": "e59d719bcd361ba8",
+        "name": "",
+        "filename": "\\home\\nodered\\.node-red\\log.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 910,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b57a9d36892f78d",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "name": "Ubi Format",
+        "func": "//p = msg.payload;\n\n\n//return msg;\np = JSON.parse(msg.payload);\nif (msg.payload.includes (\"urn:dev:DEVEUI:A8610A343125910B:\"&&\"temp\"))\n{\n   var t = \"light today\";\n   msg.payload = {[t]: + p.v};\n   return msg;\n}\nelse\n{\n   return;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 400,
+        "wires": [
+            [
+                "70fdae55af665c12",
+                "a8f222b2457f167c"
+            ]
+        ]
+    },
+    {
+        "id": "a8f222b2457f167c",
+        "type": "ubidots_out",
+        "z": "e59d719bcd361ba8",
+        "name": "Test",
+        "token": "ubidots-token-here",
+        "label_device": "raspberry-pi",
+        "device_label": "UbiTest",
+        "tier": "business",
+        "tls_checkbox": true,
+        "x": 830,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "70fdae55af665c12",
+        "type": "debug",
+        "z": "e59d719bcd361ba8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 360,
+        "wires": []
+    }
+]
