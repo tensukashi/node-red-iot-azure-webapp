@@ -1,10 +1,10 @@
 {
   "name": "node-red-webapp",
-  "version": "1.0.0",
+  "version": "2.2.2",
   "description": "A webapp wrapper for running node-red in an Azure Web App",
   "main": "server.js",
   "dependencies": {
-    "node-red": "^1.1.0",
+    "node-red": "^2.2.2",
     "node-red-contrib-azure-blob-storage": "^0.4.0",
     "node-red-contrib-azure-documentdb": "0.0.3",
     "node-red-contrib-azure-sql": "^0.1.1",
@@ -22,20 +22,16 @@
     "postinstall": "node postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/jmservera/node-red-azure-webapp.git"
-  },
   "keywords": [
     "node-red",
     "Azure"
   ],
-  "author": "jmservera",
+  "author": "tensukashi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jmservera/node-red-azure-webapp/issues"
+    "url": "https://github.com/tensukashi/node-red-azure-webapp/issues"
   },
-  "homepage": "https://github.com/jmservera/node-red-azure-webapp#readme",
+  "homepage": "https://github.com/tensukashi/node-red-azure-webapp#readme",
   "engines": {
     "node": ">=12.15.0",
     "npm": ">=6.13.4"
