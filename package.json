@@ -24,7 +24,7 @@
   },
     "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/tensukashi/node-red-azure-webapp.git"
+    "url": "git+ssh://github.com/tensukashi/node-red-iot-azure-webapp.git"
   },
   "keywords": [
     "node-red",
