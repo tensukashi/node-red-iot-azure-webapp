@@ -24,7 +24,7 @@
   },
     "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jmservera/node-red-azure-webapp.git"
+    "url": "git+ssh://git@github.com/tensukashi/node-red-azure-webapp.git"
   },
   "keywords": [
     "node-red",
