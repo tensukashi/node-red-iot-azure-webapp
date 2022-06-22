@@ -110,12 +110,13 @@
             "b5636e65d908f3ea",
             "9d7ac03fef8b7ff5",
             "49323eae60619121",
-            "5507a1e1d412b7bb"
+            "5507a1e1d412b7bb",
+            "11e5debda79b5e67"
         ],
         "x": 1134,
         "y": 499,
         "w": 518,
-        "h": 528
+        "h": 568
     },
     {
         "id": "8efd5752875ea60d",
@@ -155,7 +156,7 @@
             "18a27b9233a8e852"
         ],
         "x": 1374,
-        "y": 579,
+        "y": 619,
         "w": 252,
         "h": 182
     },
@@ -175,7 +176,7 @@
             "1f0cce608f385d67"
         ],
         "x": 1374,
-        "y": 759,
+        "y": 799,
         "w": 252,
         "h": 122
     },
@@ -195,7 +196,7 @@
             "53858a6c0f673dd1"
         ],
         "x": 1374,
-        "y": 879,
+        "y": 919,
         "w": 252,
         "h": 122
     },
@@ -539,13 +540,13 @@
         "z": "e59d719bcd361ba8",
         "g": "9d7ac03fef8b7ff5",
         "name": "Ubidots Node 1",
-        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "token": "Enter Your Ubidots Default Token here",
         "label_device": "raspberry-pi",
         "device_label": "Device00",
         "tier": "business",
         "tls_checkbox": true,
         "x": 1480,
-        "y": 720,
+        "y": 760,
         "wires": []
     },
     {
@@ -561,7 +562,7 @@
         "finalize": "",
         "libs": [],
         "x": 1240,
-        "y": 760,
+        "y": 800,
         "wires": [
             [
                 "0ef2fb7c043b7079",
@@ -583,13 +584,13 @@
         "z": "e59d719bcd361ba8",
         "g": "49323eae60619121",
         "name": "Ubidots Node 2",
-        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "token": "Enter Your Ubidots Default Token here",
         "label_device": "raspberry-pi",
         "device_label": "device01",
         "tier": "business",
         "tls_checkbox": true,
         "x": 1480,
-        "y": 840,
+        "y": 880,
         "wires": []
     },
     {
@@ -598,13 +599,13 @@
         "z": "e59d719bcd361ba8",
         "g": "5507a1e1d412b7bb",
         "name": "Ubidots Node 3",
-        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "token": "Enter Your Ubidots Default Token here",
         "label_device": "raspberry-pi",
         "device_label": "device02",
         "tier": "business",
         "tls_checkbox": true,
         "x": 1480,
-        "y": 960,
+        "y": 1000,
         "wires": []
     },
     {
@@ -622,7 +623,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1490,
-        "y": 920,
+        "y": 960,
         "wires": []
     },
     {
@@ -640,7 +641,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1490,
-        "y": 800,
+        "y": 840,
         "wires": []
     },
     {
@@ -658,7 +659,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1490,
-        "y": 680,
+        "y": 720,
         "wires": []
     },
     {
@@ -701,7 +702,7 @@
         "name": "Use Multiple Ubidots Device End Points",
         "info": "",
         "x": 1310,
-        "y": 540,
+        "y": 580,
         "wires": []
     },
     {
@@ -728,7 +729,7 @@
         "z": "e59d719bcd361ba8",
         "g": "8efd5752875ea60d",
         "name": "My first Ubidots End Point",
-        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "token": "Enter Your Ubidots Default Token here",
         "label_device": "raspberry-pi",
         "device_label": "MyFirst",
         "tier": "business",
@@ -742,10 +743,10 @@
         "type": "comment",
         "z": "e59d719bcd361ba8",
         "g": "9d7ac03fef8b7ff5",
-        "name": "End Point",
+        "name": "End Point Devices",
         "info": "",
-        "x": 1460,
-        "y": 620,
+        "x": 1490,
+        "y": 660,
         "wires": []
     },
     {
@@ -753,9 +754,9 @@
         "type": "comment",
         "z": "e59d719bcd361ba8",
         "g": "8efd5752875ea60d",
-        "name": "End Point",
+        "name": "End Point Devices",
         "info": "",
-        "x": 1440,
+        "x": 1470,
         "y": 200,
         "wires": []
     },
@@ -955,6 +956,17 @@
         "info": "",
         "x": 890,
         "y": 100,
+        "wires": []
+    },
+    {
+        "id": "11e5debda79b5e67",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "cf2bc87553d19cde",
+        "name": "Additional Ubidots Options",
+        "info": "",
+        "x": 1270,
+        "y": 540,
         "wires": []
     }
 ]
