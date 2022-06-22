@@ -24,10 +24,10 @@
             "d1907f1bde888391",
             "8af71892269d6087"
         ],
-        "x": 54,
-        "y": 119,
-        "w": 312,
-        "h": 202
+        "x": 14,
+        "y": 79,
+        "w": 352,
+        "h": 242
     },
     {
         "id": "1d4f9670c7db20f2",
@@ -40,14 +40,13 @@
             "stroke": "none"
         },
         "nodes": [
-            "3fda6818fd4802c8",
             "de2d46c848993704",
             "d25cd57ccf7532d6"
         ],
-        "x": 54,
-        "y": 319,
+        "x": 14,
+        "y": 339,
         "w": 232,
-        "h": 162
+        "h": 142
     },
     {
         "id": "b7879eac727d0f32",
@@ -69,16 +68,15 @@
             "0270341d3de33b63",
             "8824becb0bc95691",
             "fa8cd1958de2d3f5",
-            "0eb9cb6ef670485f",
             "448dc34d8aa8d057"
         ],
         "x": 374,
-        "y": 39,
-        "w": 373.42858123779297,
-        "h": 442
+        "y": 59,
+        "w": 393.42858123779297,
+        "h": 422
     },
     {
-        "id": "44f6c6cb5b54549c",
+        "id": "6a97e3205d596f19",
         "type": "group",
         "z": "e59d719bcd361ba8",
         "name": "",
@@ -88,70 +86,159 @@
             "label": true
         },
         "nodes": [
-            "bcfda9c443041d86",
-            "9ea1a69ed019b185",
-            "b4fd761c085fe4ae",
-            "5f264a6471b8d201",
-            "e3bd7c3c813b8a93",
-            "c44e0eafc21c7f9b",
-            "116b04c56cd8c0f3",
-            "5905896cf1ab15a5",
-            "6552f34d8aad4abf",
-            "c7a4d10dad5b761b",
-            "f9f678aab366ede3",
-            "66838583b8bc451a",
-            "a54ddd5a545675a6",
-            "4ba0f3de82b7b1c1",
-            "21c718ddfed03c1a",
-            "28ff7bf244519ab7",
-            "085dd113d1159260",
-            "167b20427b1d050f"
+            "c02874ede6d876e6",
+            "85381d9de524e0b3",
+            "8efd5752875ea60d"
         ],
-        "x": 755.428581237793,
-        "y": 39,
-        "w": 810.571418762207,
-        "h": 442
+        "x": 1134,
+        "y": 79,
+        "w": 518,
+        "h": 288
     },
     {
-        "id": "feee11eb832deea0",
+        "id": "cf2bc87553d19cde",
         "type": "group",
         "z": "e59d719bcd361ba8",
         "name": "",
         "style": {
             "stroke": "none",
-            "fill": "#0070c0",
+            "fill": "#bfdbef",
             "label": true
         },
         "nodes": [
-            "2493ca51bf86362d",
-            "762bb05d94721116",
-            "114d1c4c1e8c1b28",
-            "adfcf8f9b76384ff",
-            "fc3e219b1f0da750",
-            "e22e9d61cde0cf91",
-            "76ddd4423c66db47",
-            "c7a88f689de5df5f",
-            "1b3023c01724e0f8",
-            "9ba6e876d0f4c935"
+            "3211618f6b787be9",
+            "b5636e65d908f3ea",
+            "9d7ac03fef8b7ff5",
+            "49323eae60619121",
+            "5507a1e1d412b7bb"
         ],
-        "x": 754,
+        "x": 1134,
         "y": 499,
-        "w": 472,
-        "h": 402
+        "w": 518,
+        "h": 528
+    },
+    {
+        "id": "8efd5752875ea60d",
+        "type": "group",
+        "z": "e59d719bcd361ba8",
+        "g": "6a97e3205d596f19",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true
+        },
+        "nodes": [
+            "100559405bf4e57a",
+            "4e64e3db9f523ca6",
+            "b5c7e1a4659bbb98"
+        ],
+        "x": 1354,
+        "y": 159,
+        "w": 272,
+        "h": 182
+    },
+    {
+        "id": "9d7ac03fef8b7ff5",
+        "type": "group",
+        "z": "e59d719bcd361ba8",
+        "g": "cf2bc87553d19cde",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true
+        },
+        "nodes": [
+            "0ef2fb7c043b7079",
+            "c3b1aa81ed4582d4",
+            "18a27b9233a8e852"
+        ],
+        "x": 1374,
+        "y": 579,
+        "w": 252,
+        "h": 182
+    },
+    {
+        "id": "49323eae60619121",
+        "type": "group",
+        "z": "e59d719bcd361ba8",
+        "g": "cf2bc87553d19cde",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true
+        },
+        "nodes": [
+            "eb2773efb080ebbd",
+            "1f0cce608f385d67"
+        ],
+        "x": 1374,
+        "y": 759,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "5507a1e1d412b7bb",
+        "type": "group",
+        "z": "e59d719bcd361ba8",
+        "g": "cf2bc87553d19cde",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true
+        },
+        "nodes": [
+            "ae6034c89dc4cbfc",
+            "53858a6c0f673dd1"
+        ],
+        "x": 1374,
+        "y": 879,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "44f6c6cb5b54549c",
+        "type": "group",
+        "z": "e59d719bcd361ba8",
+        "name": "",
+        "style": {
+            "stroke": "none",
+            "fill": "#a4a4a4",
+            "label": true
+        },
+        "nodes": [
+            "9ea1a69ed019b185",
+            "b4fd761c085fe4ae",
+            "5f264a6471b8d201",
+            "e3bd7c3c813b8a93",
+            "116b04c56cd8c0f3",
+            "5905896cf1ab15a5",
+            "6552f34d8aad4abf",
+            "c7a4d10dad5b761b",
+            "f9f678aab366ede3",
+            "21c718ddfed03c1a"
+        ],
+        "x": 774,
+        "y": 59,
+        "w": 350.57141876220703,
+        "h": 422
     },
     {
         "id": "3090e29df5e1cb24",
         "type": "function",
         "z": "e59d719bcd361ba8",
         "g": "b7879eac727d0f32",
-        "name": "",
-        "func": "p = msg.payload;\nID = p[0];\nVal = p[1];\nBat = p[2];\nAct = p[3];\nMod = p[4];\nImg = p[5];\nLon = p[6];\n\nvar D0 = {payload: ID};\nvar D1 = {payload: Val};\nvar D2 = {payload: Bat};\nvar D3 = {payload: Act};\nvar D4 = {payload: Mod};\nvar D5 = {payload: Img};\nvar D6 = {payload: Lon};\n\nreturn [D0, D1, D2, D3, D4, D5, D6];",
+        "name": "senML 2 STR",
+        "func": "p = msg.payload;\n\nID  = p[0];\nBat = p[1];\nAcx = p[2];\nAcy = p[3];\nAcz = p[4];\nLat = p[5];\nLon = p[6];\n\nvar D0 = {payload: ID};\nvar D1 = {payload: Bat};\nvar D2 = {payload: Acx};\nvar D3 = {payload: Acy};\nvar D4 = {payload: Acz};\nvar D5 = {payload: Lat};\nvar D6 = {payload: Lon};\n\nreturn [D0, D1, D2, D3, D4, D5, D6];",
         "outputs": 7,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
+        "x": 480,
         "y": 280,
         "wires": [
             [
@@ -161,8 +248,7 @@
                 "9ae06d28a17caeb6"
             ],
             [
-                "0ff3b229d1df6608",
-                "0eb9cb6ef670485f"
+                "0ff3b229d1df6608"
             ],
             [
                 "2344e63cb9bd21d3"
@@ -188,7 +274,7 @@
         "method": "post",
         "upload": true,
         "swaggerDoc": "",
-        "x": 130,
+        "x": 90,
         "y": 280,
         "wires": [
             [
@@ -206,76 +292,8 @@
         "name": "Response",
         "statusCode": "200",
         "headers": {},
-        "x": 220,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "2493ca51bf86362d",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Format",
-        "func": "p = JSON.parse(msg.payload);\n\n//\nif (msg.payload.includes (\"temperature\"))\n{\n   msg.payload = (p.v);\n   return [msg,,,,,,,];\n}\nif (msg.payload.includes (\"batteryVoltage\"))\n{\n   msg.payload = p.v;\n   return [,msg,,,,,,];\n}\nif (msg.payload.includes (\"batteryVoltage\"))\n{\n   msg.payload = p.t\n   return [,,msg,,,,,];\n}\nif (msg.payload.includes (\"active\"))\n{\n   msg.payload = p.vb\n   return [,,,msg,,,,];\n}\n\n//\nif (msg.payload.includes (\"battery\"))\n{\n   msg.payload = parseFloat(p.vs);\n   return [msg,,,,,,,];\n}\nif (msg.payload.includes (\"accelerationX\"))\n{\n   msg.payload = p.v;\n   return [,msg,,,,,,];\n}\nif (msg.payload.includes (\"accelerationY\"))\n{\n   msg.payload = p.v;\n   return [,,msg,,,,,];\n}\nif (msg.payload.includes (\"accelerationZ\"))\n{\n   msg.payload = p.v;\n   return [,,,msg,,,,];\n}\nif (msg.payload.includes (\"latitude\"))\n{\n   msg.payload = p.v;\n   return [,,,,msg,,,];\n}\nif (msg.payload.includes (\"longitude\"))\n{\n   msg.payload = p.v;\n   return [,,,,,msg,,];\n}\nelse\n{\n   return;\n}\n",
-        "outputs": 8,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 870,
-        "y": 700,
-        "wires": [
-            [
-                "762bb05d94721116"
-            ],
-            [
-                "114d1c4c1e8c1b28"
-            ],
-            [
-                "adfcf8f9b76384ff"
-            ],
-            [
-                "fc3e219b1f0da750"
-            ],
-            [
-                "e22e9d61cde0cf91"
-            ],
-            [
-                "76ddd4423c66db47"
-            ],
-            [
-                "c7a88f689de5df5f"
-            ],
-            [
-                "1b3023c01724e0f8"
-            ]
-        ]
-    },
-    {
-        "id": "762bb05d94721116",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 1",
-        "writekey": "Enter channel writeKey here",
-        "fieldid": "1",
-        "x": 1110,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "bcfda9c443041d86",
-        "type": "ubidots_out",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Ubidots Node 1 ",
-        "token": "Enter your device token here",
-        "label_device": "raspberry-pi",
-        "device_label": "Enter your device name here",
-        "tier": "business",
-        "tls_checkbox": true,
-        "x": 1420,
-        "y": 120,
+        "x": 240,
+        "y": 220,
         "wires": []
     },
     {
@@ -283,7 +301,7 @@
         "type": "debug",
         "z": "e59d719bcd361ba8",
         "g": "b3ea7f7c7aa99d5d",
-        "name": "Check Recieved Data",
+        "name": "Check Incomming",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -292,8 +310,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 220,
-        "y": 200,
+        "x": 230,
+        "y": 180,
         "wires": []
     },
     {
@@ -308,8 +326,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 120,
+        "x": 660,
+        "y": 160,
         "wires": [
             [
                 "b4fd761c085fe4ae"
@@ -328,12 +346,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 160,
+        "x": 670,
+        "y": 200,
         "wires": [
             [
-                "9ea1a69ed019b185",
-                "2493ca51bf86362d"
+                "9ea1a69ed019b185"
             ]
         ]
     },
@@ -349,14 +366,398 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 200,
+        "x": 670,
+        "y": 240,
         "wires": [
             [
-                "5f264a6471b8d201",
-                "2493ca51bf86362d"
+                "5f264a6471b8d201"
             ]
         ]
+    },
+    {
+        "id": "2344e63cb9bd21d3",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "g": "b7879eac727d0f32",
+        "name": "AccelY STR",
+        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 671.428581237793,
+        "y": 280,
+        "wires": [
+            [
+                "116b04c56cd8c0f3"
+            ]
+        ]
+    },
+    {
+        "id": "12c529e29a3bc3bb",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "g": "b7879eac727d0f32",
+        "name": "AccelZ STR",
+        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 671.428581237793,
+        "y": 320,
+        "wires": [
+            [
+                "5905896cf1ab15a5"
+            ]
+        ]
+    },
+    {
+        "id": "0270341d3de33b63",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "g": "b7879eac727d0f32",
+        "name": "Lat STR",
+        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 661.428581237793,
+        "y": 360,
+        "wires": [
+            [
+                "6552f34d8aad4abf"
+            ]
+        ]
+    },
+    {
+        "id": "8824becb0bc95691",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "g": "b7879eac727d0f32",
+        "name": "Lon STR",
+        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 661.428581237793,
+        "y": 400,
+        "wires": [
+            [
+                "c7a4d10dad5b761b"
+            ]
+        ]
+    },
+    {
+        "id": "fa8cd1958de2d3f5",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "g": "b7879eac727d0f32",
+        "name": "Convert STR",
+        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 671.428581237793,
+        "y": 440,
+        "wires": [
+            [
+                "f9f678aab366ede3"
+            ]
+        ]
+    },
+    {
+        "id": "8af71892269d6087",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "b3ea7f7c7aa99d5d",
+        "name": "KPN Connectivity ",
+        "info": "Recieve data from KPN Things and responde.",
+        "x": 120,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "448dc34d8aa8d057",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "b7879eac727d0f32",
+        "name": "Data Managment",
+        "info": "",
+        "x": 480,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "de2d46c848993704",
+        "type": "inject",
+        "z": "e59d719bcd361ba8",
+        "g": "1d4f9670c7db20f2",
+        "name": "Test SenML Sim",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"bn\":\"urn:dev:DVNUUID:451346564647 365476325167263576 243:\",\"bt\":1655649139},{\"n\":\"battery\",\"u\":\"%\",\"vs\":\"86.0\"},{\"n\":\"accelerationX\",\"u\":\"m/s2\",\"v\":0.5},{\"n\":\"accelerationY\",\"u\":\"m/s2\",\"v\":9.03},{\"n\":\"accelerationZ\",\"u\":\"m/s2\",\"v\":2.66},{\"n\":\"latitude\",\"u\":\"lat\",\"v\":51.90725},{\"n\":\"longitude\",\"u\":\"lon\",\"v\":4.48934}]",
+        "payloadType": "json",
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "3090e29df5e1cb24"
+            ]
+        ]
+    },
+    {
+        "id": "d25cd57ccf7532d6",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "1d4f9670c7db20f2",
+        "name": "Input data test ",
+        "info": "A quick test to see incomming data on the end points.",
+        "x": 110,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0ef2fb7c043b7079",
+        "type": "ubidots_out",
+        "z": "e59d719bcd361ba8",
+        "g": "9d7ac03fef8b7ff5",
+        "name": "Ubidots Node 1",
+        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "label_device": "raspberry-pi",
+        "device_label": "Device00",
+        "tier": "business",
+        "tls_checkbox": true,
+        "x": 1480,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "3211618f6b787be9",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "g": "cf2bc87553d19cde",
+        "name": "Identify & Send",
+        "func": "p = msg.payload\n\nID2 = p[0].DVNUUID;\nBc  = p[1].BatteryCent;\nAcx = p[2].AccelerationX;\nAcy = p[3].AccelerationY;\nAcz = p[4].AccelerationZ\nLat = p[5].Latitude\nLon = p[6].Longitude\n\nid = \"DVNUUID\"\nbc = \"Battery%\"\nax = \"AccelerationX\" \nay = \"AccelerationY\"\naz = \"AccelerationZ\"\nla = \"Latitude\"\nlo = \"Longitude\"\n\npo  = \"position\";\npla = \"lat\";\nplo = \"lng\";\n\nmsg.payload = JSON.stringify(p);\n\nif (msg.payload.includes (\"9398814d-1090-46bc-b126-88c865bcbeba\"))\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [msg,,];\n}\nelse if (msg.payload.includes (\"451346564647 365476325167263576 243\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [,msg,];\n}\nelse if (msg.payload.includes (\"Enter The Device ID Here\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [,,msg];\n}",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 760,
+        "wires": [
+            [
+                "0ef2fb7c043b7079",
+                "c3b1aa81ed4582d4"
+            ],
+            [
+                "eb2773efb080ebbd",
+                "1f0cce608f385d67"
+            ],
+            [
+                "ae6034c89dc4cbfc",
+                "53858a6c0f673dd1"
+            ]
+        ]
+    },
+    {
+        "id": "eb2773efb080ebbd",
+        "type": "ubidots_out",
+        "z": "e59d719bcd361ba8",
+        "g": "49323eae60619121",
+        "name": "Ubidots Node 2",
+        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "label_device": "raspberry-pi",
+        "device_label": "device01",
+        "tier": "business",
+        "tls_checkbox": true,
+        "x": 1480,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "ae6034c89dc4cbfc",
+        "type": "ubidots_out",
+        "z": "e59d719bcd361ba8",
+        "g": "5507a1e1d412b7bb",
+        "name": "Ubidots Node 3",
+        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "label_device": "raspberry-pi",
+        "device_label": "device02",
+        "tier": "business",
+        "tls_checkbox": true,
+        "x": 1480,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "53858a6c0f673dd1",
+        "type": "debug",
+        "z": "e59d719bcd361ba8",
+        "g": "5507a1e1d412b7bb",
+        "name": "Check Outgoing 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "1f0cce608f385d67",
+        "type": "debug",
+        "z": "e59d719bcd361ba8",
+        "g": "49323eae60619121",
+        "name": "Check Outgoing 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "c3b1aa81ed4582d4",
+        "type": "debug",
+        "z": "e59d719bcd361ba8",
+        "g": "9d7ac03fef8b7ff5",
+        "name": "Check Outgoing 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "c02874ede6d876e6",
+        "type": "function",
+        "z": "e59d719bcd361ba8",
+        "g": "6a97e3205d596f19",
+        "name": "Identify & Send",
+        "func": "p = msg.payload\n\nID  = p[0].DVNUUID;\nBc  = p[1].BatteryCent;\nAcx = p[2].AccelerationX;\nAcy = p[3].AccelerationY;\nAcz = p[4].AccelerationZ\nLat = p[5].Latitude\nLon = p[6].Longitude\n\nd2 = \"DVNUUID\"\nbc = \"Battery%\"\nax = \"AccelerationX\"\nay = \"AccelerationY\"\naz = \"AccelerationZ\"\nla = \"Latitude\"\nlo = \"Longitude\"\n\npo  = \"position\";\npla = \"lat\";\nplo = \"lng\";\n\nmsg.payload = JSON.stringify(p);\nmsg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 280,
+        "wires": [
+            [
+                "100559405bf4e57a",
+                "4e64e3db9f523ca6"
+            ]
+        ]
+    },
+    {
+        "id": "85381d9de524e0b3",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "6a97e3205d596f19",
+        "name": "Ubidots Device End Point",
+        "info": "",
+        "x": 1270,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b5636e65d908f3ea",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "cf2bc87553d19cde",
+        "name": "Use Multiple Ubidots Device End Points",
+        "info": "",
+        "x": 1310,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "100559405bf4e57a",
+        "type": "debug",
+        "z": "e59d719bcd361ba8",
+        "g": "8efd5752875ea60d",
+        "name": "Check Outgoing",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4e64e3db9f523ca6",
+        "type": "ubidots_out",
+        "z": "e59d719bcd361ba8",
+        "g": "8efd5752875ea60d",
+        "name": "My first Ubidots End Point",
+        "token": "BBFF-HslZXHoVYUkijcXBsRQNmbtW9KpR9f",
+        "label_device": "raspberry-pi",
+        "device_label": "MyFirst",
+        "tier": "business",
+        "tls_checkbox": true,
+        "x": 1490,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "18a27b9233a8e852",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "9d7ac03fef8b7ff5",
+        "name": "End Point",
+        "info": "",
+        "x": 1460,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b5c7e1a4659bbb98",
+        "type": "comment",
+        "z": "e59d719bcd361ba8",
+        "g": "8efd5752875ea60d",
+        "name": "End Point",
+        "info": "",
+        "x": 1440,
+        "y": 200,
+        "wires": []
     },
     {
         "id": "9ea1a69ed019b185",
@@ -364,14 +765,14 @@
         "z": "e59d719bcd361ba8",
         "g": "44f6c6cb5b54549c",
         "name": "Ubi Format",
-        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"temperature\"))\n{\n   var vs = \"Temperature\";\n   msg.payload = {[vs]: p.v};\n   return msg;\n}\nif (msg.payload.includes (\"battery\"))\n{\n   var vs2 = \"BatteryCent\";\n   msg.payload = {[vs2]: parseFloat(p.vs)};\n   return msg;\n}\nelse\n{\n   return;\n}",
+        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"battery\"))\n{\n   var vs2 = \"BatteryCent\";\n   msg.payload = {[vs2]: parseFloat(p.vs)};\n   return msg;\n}\nelse\n{\n   return;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 851.428581237793,
-        "y": 160,
+        "x": 870,
+        "y": 200,
         "wires": [
             [
                 "e3bd7c3c813b8a93"
@@ -384,14 +785,14 @@
         "z": "e59d719bcd361ba8",
         "g": "44f6c6cb5b54549c",
         "name": "Ubi Format",
-        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"DEVEUI\"))\n{\n   var vs = \"DEVEUI\";\n   msg.payload = {[vs]: p.bn};\n   return msg;\n}\nif(msg.payload.includes (\"DVNUUID\"))\n{\n   var vs2 = \"DVNUUID\";\n   msg.payload = {[vs2]: p.bn};\n   return msg;\n}\nelse\n{\n   return;\n}",
+        "func": "p = JSON.parse(msg.payload);\n\nif(msg.payload.includes (\"DVNUUID\"))\n{\n   var vs2 = \"DVNUUID\";\n   msg.payload = {[vs2]: p.bn};\n   return msg;\n}\nelse\n{\n   return;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 851.428581237793,
-        "y": 120,
+        "x": 870,
+        "y": 160,
         "wires": [
             [
                 "e3bd7c3c813b8a93"
@@ -404,14 +805,14 @@
         "z": "e59d719bcd361ba8",
         "g": "44f6c6cb5b54549c",
         "name": "Ubi Format",
-        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"batteryVoltage\"))\n{\n   var vs = \"Battery\";\n   msg.payload = {[vs]: p.v};\n   return msg;\n}\nif (msg.payload.includes (\"accelerationX\"))\n{\n   var vs2 = \"AccelerationX\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\n",
+        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"accelerationX\"))\n{\n   var vs2 = \"AccelerationX\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 851.428581237793,
-        "y": 200,
+        "x": 870,
+        "y": 240,
         "wires": [
             [
                 "e3bd7c3c813b8a93"
@@ -439,61 +840,11 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 1030,
+        "x": 1048.571418762207,
         "y": 280,
         "wires": [
             [
-                "c44e0eafc21c7f9b"
-            ]
-        ]
-    },
-    {
-        "id": "c44e0eafc21c7f9b",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Identify and Send",
-        "func": "p = msg.payload\n\nID  = p[0].DEVEUI;\nID2 = p[0].DVNUUID;\n\nTem = p[1].Temperature;\nBc  = p[1].BatteryCent;\n\nBv  = p[2].Battery;\nAcx = p[2].AccelerationX;\n\nVol = p[3].Voltage;\nAcy = p[3].AccelerationY;\n\nAct = p[4].Active;\nAcz = p[4].AccelerationZ\n\nMod = p[5].Modus;\nLat = p[5].Latitude\n\nImg = p[6].Image;\nLon = p[6].Longitude\n\nd1 = \"DEVEUI\";\nd2 = \"DVNUUID\"\n\nt = \"Temperature\";\nbc =\"Battery%\"\n\nv = \"Voltage\";\nax = \"AccelerationX\"\n\nbv = \"Battery\"; \nay = \"AccelerationY\"\n\na = \"Active\"\naz = \"AccelerationZ\"\n\nm = \"Modus\"\nla = \"Latitude\"\n\ni = \"Image\"\nlo = \"Longitude\"\n\npo = \"position\";\npla = \"lat\";\nplo = \"lng\";\n\nmsg.payload = JSON.stringify(p);\n\nif (msg.payload.includes (\"9398814d-1090-46bc-b126-88c865bcbeba\"))\n{\n    msg.payload = {[d2]:ID2, [bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [msg,,];\n}\nelse if (msg.payload.includes (\"451346564647 365476325167263576 243\"))//DVNUUID\n{\n    msg.payload = {[d2]:ID2, [bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [,msg,];\n}\nelse if (msg.payload.includes (\"DEVEUI\"))\n{\n    msg.payload = {[d1]:ID, [t]:Tem, [bv]:Bv, [v]: Vol, [a]:Act, [m]:Mod, [i]:Img};\n    return [,,msg];\n}",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1190,
-        "y": 280,
-        "wires": [
-            [
-                "bcfda9c443041d86",
-                "167b20427b1d050f"
-            ],
-            [
-                "a54ddd5a545675a6",
-                "085dd113d1159260"
-            ],
-            [
-                "4ba0f3de82b7b1c1",
-                "28ff7bf244519ab7"
-            ]
-        ]
-    },
-    {
-        "id": "2344e63cb9bd21d3",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "b7879eac727d0f32",
-        "name": "AccelY STR",
-        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 651.428581237793,
-        "y": 280,
-        "wires": [
-            [
-                "116b04c56cd8c0f3",
-                "2493ca51bf86362d"
+                "c02874ede6d876e6"
             ]
         ]
     },
@@ -503,38 +854,17 @@
         "z": "e59d719bcd361ba8",
         "g": "44f6c6cb5b54549c",
         "name": "Ubi Format",
-        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"active\"))\n{\n   var vs = \"Active\";\n   msg.payload = {[vs]: p.vb};\n   return msg;\n}\nif (msg.payload.includes (\"accelerationY\"))\n{\n   var vs2 = \"AccelerationY\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\nelse\n{\n   return;\n}",
+        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"accelerationY\"))\n{\n   var vs2 = \"AccelerationY\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\nelse\n{\n   return;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 852.8571624755859,
+        "x": 871.428581237793,
         "y": 280,
         "wires": [
             [
                 "e3bd7c3c813b8a93"
-            ]
-        ]
-    },
-    {
-        "id": "12c529e29a3bc3bb",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "b7879eac727d0f32",
-        "name": "AccelZ STR",
-        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 651.428581237793,
-        "y": 320,
-        "wires": [
-            [
-                "5905896cf1ab15a5",
-                "2493ca51bf86362d"
             ]
         ]
     },
@@ -544,38 +874,17 @@
         "z": "e59d719bcd361ba8",
         "g": "44f6c6cb5b54549c",
         "name": "Ubi Format",
-        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"modus\"))\n{\n   var vs = \"Modus\";\n   msg.payload = {[vs]: p.vs};\n   return msg;\n}\nif (msg.payload.includes (\"accelerationZ\"))\n{\n   var vs2 = \"AccelerationZ\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\nelse\n{\n   return;\n}",
+        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"accelerationZ\"))\n{\n   var vs2 = \"AccelerationZ\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\nelse\n{\n   return;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 852.8571624755859,
+        "x": 871.428581237793,
         "y": 320,
         "wires": [
             [
                 "e3bd7c3c813b8a93"
-            ]
-        ]
-    },
-    {
-        "id": "0270341d3de33b63",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "b7879eac727d0f32",
-        "name": "Lat STR",
-        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 641.428581237793,
-        "y": 360,
-        "wires": [
-            [
-                "6552f34d8aad4abf",
-                "2493ca51bf86362d"
             ]
         ]
     },
@@ -585,38 +894,17 @@
         "z": "e59d719bcd361ba8",
         "g": "44f6c6cb5b54549c",
         "name": "Ubi Format",
-        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"image\"))\n{\n   var vs = \"Image\";\n   msg.payload = {[vs]: p.vd};\n   return msg;\n}\nif (msg.payload.includes (\"latitude\"))\n{\n   var vs2 = \"Latitude\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\nelse\n{\n   return;\n}",
+        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"latitude\"))\n{\n   var vs2 = \"Latitude\";\n   msg.payload = {[vs2]: p.v};\n   return msg;\n}\nelse\n{\n   return;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 852.8571624755859,
+        "x": 871.428581237793,
         "y": 360,
         "wires": [
             [
                 "e3bd7c3c813b8a93"
-            ]
-        ]
-    },
-    {
-        "id": "8824becb0bc95691",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "b7879eac727d0f32",
-        "name": "Lon STR",
-        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 641.428581237793,
-        "y": 400,
-        "wires": [
-            [
-                "c7a4d10dad5b761b",
-                "2493ca51bf86362d"
             ]
         ]
     },
@@ -632,7 +920,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 852.8571624755859,
+        "x": 871.428581237793,
         "y": 400,
         "wires": [
             [
@@ -652,345 +940,21 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 852.8571624755859,
+        "x": 871.428581237793,
         "y": 440,
         "wires": [
             []
         ]
     },
     {
-        "id": "fa8cd1958de2d3f5",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "b7879eac727d0f32",
-        "name": "Convert STR",
-        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 651.428581237793,
-        "y": 440,
-        "wires": [
-            [
-                "f9f678aab366ede3"
-            ]
-        ]
-    },
-    {
-        "id": "114d1c4c1e8c1b28",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 2",
-        "writekey": "Enter Channel writeKey here",
-        "fieldid": "2",
-        "x": 1110,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "adfcf8f9b76384ff",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 3",
-        "writekey": "Enter Channel writeKey here",
-        "fieldid": "3",
-        "x": 1110,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "fc3e219b1f0da750",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 4",
-        "writekey": "Enter Channel writeKey here",
-        "fieldid": "4",
-        "x": 1110,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "e22e9d61cde0cf91",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 5",
-        "writekey": "Enter Channel writeKey here",
-        "fieldid": "5",
-        "x": 1110,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "0eb9cb6ef670485f",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "b7879eac727d0f32",
-        "name": "Convert STR",
-        "func": "var test = msg.payload;\n\nmsg.payload = JSON.stringify(test);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 651.428581237793,
-        "y": 240,
-        "wires": [
-            [
-                "66838583b8bc451a"
-            ]
-        ]
-    },
-    {
-        "id": "66838583b8bc451a",
-        "type": "function",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Ubi Format",
-        "func": "p = JSON.parse(msg.payload);\n\nif (msg.payload.includes (\"batteryVoltage\"))\n{\n   var vs = \"Voltage\";\n   msg.payload = {[vs]: p.t};\n   return msg;\n}\nelse\n{\n   return;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 851.428581237793,
-        "y": 240,
-        "wires": [
-            [
-                "e3bd7c3c813b8a93"
-            ]
-        ]
-    },
-    {
-        "id": "a54ddd5a545675a6",
-        "type": "ubidots_out",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Ubidots Node 2",
-        "token": "Enter your device token here",
-        "label_device": "raspberry-pi",
-        "device_label": "Enter the name of your device",
-        "tier": "business",
-        "tls_checkbox": true,
-        "x": 1420,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "4ba0f3de82b7b1c1",
-        "type": "ubidots_out",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Ubidots Node 3",
-        "token": "Enter your device token here",
-        "label_device": "raspberry-pi",
-        "device_label": "Enter the name of your device",
-        "tier": "business",
-        "tls_checkbox": true,
-        "x": 1420,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "76ddd4423c66db47",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 6",
-        "writekey": "Enter Channel writeKey here",
-        "fieldid": "6",
-        "x": 1110,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "c7a88f689de5df5f",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 7",
-        "writekey": "Enter Channel writeKey here",
-        "fieldid": "7",
-        "x": 1110,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "1b3023c01724e0f8",
-        "type": "ThingspeakSendSimple",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Node 8",
-        "writekey": "Enter Channel writeKey here",
-        "fieldid": "8",
-        "x": 1110,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "8af71892269d6087",
-        "type": "comment",
-        "z": "e59d719bcd361ba8",
-        "g": "b3ea7f7c7aa99d5d",
-        "name": "KPN Connectivity ",
-        "info": "Recieve data from KPN Things and responde.",
-        "x": 220,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "448dc34d8aa8d057",
-        "type": "comment",
-        "z": "e59d719bcd361ba8",
-        "g": "b7879eac727d0f32",
-        "name": "Data Managment",
-        "info": "",
-        "x": 560,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "9ba6e876d0f4c935",
-        "type": "comment",
-        "z": "e59d719bcd361ba8",
-        "g": "feee11eb832deea0",
-        "name": "Thingspeak Solution",
-        "info": "",
-        "x": 990,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "21c718ddfed03c1a",
         "type": "comment",
         "z": "e59d719bcd361ba8",
         "g": "44f6c6cb5b54549c",
-        "name": "Ubidots Solution",
+        "name": "Ubidots Convertion",
         "info": "",
-        "x": 1160,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "3fda6818fd4802c8",
-        "type": "inject",
-        "z": "e59d719bcd361ba8",
-        "g": "1d4f9670c7db20f2",
-        "name": "Test SenMLtest",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "[{\"bn\":\"urn:dev:DEVEUI:0123456789ABCDEF:\",\"bt\":1585650750},{\"n\":\"temperature\",\"v\":20,\"u\":\"Cel\"},{\"n\":\"batteryVoltage\",\"v\":3.6,\"u\":\"V\",\"t\":11},{\"n\":\"active\",\"vb\":true},{\"n\":\"modus\",\"vs\":\"Active\"},{\"n\":\"image\",\"vd\":\"aGFsbG9vb29vISE=\"}]",
-        "payloadType": "json",
-        "x": 170,
-        "y": 440,
-        "wires": [
-            [
-                "3090e29df5e1cb24"
-            ]
-        ]
-    },
-    {
-        "id": "de2d46c848993704",
-        "type": "inject",
-        "z": "e59d719bcd361ba8",
-        "g": "1d4f9670c7db20f2",
-        "name": "Test SenML Sim",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "[{\"bn\":\"urn:dev:DVNUUID:451346564647 365476325167263576 243:\",\"bt\":1655649139},{\"n\":\"battery\",\"u\":\"%\",\"vs\":\"86.0\"},{\"n\":\"accelerationX\",\"u\":\"m/s2\",\"v\":0.5},{\"n\":\"accelerationY\",\"u\":\"m/s2\",\"v\":9.03},{\"n\":\"accelerationZ\",\"u\":\"m/s2\",\"v\":2.66},{\"n\":\"latitude\",\"u\":\"lat\",\"v\":51.90725},{\"n\":\"longitude\",\"u\":\"lon\",\"v\":4.48934}]",
-        "payloadType": "json",
-        "x": 180,
-        "y": 400,
-        "wires": [
-            [
-                "3090e29df5e1cb24"
-            ]
-        ]
-    },
-    {
-        "id": "d25cd57ccf7532d6",
-        "type": "comment",
-        "z": "e59d719bcd361ba8",
-        "g": "1d4f9670c7db20f2",
-        "name": "Input data test ",
-        "info": "A quick test to see incomming data on the end points.",
-        "x": 190,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "28ff7bf244519ab7",
-        "type": "debug",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Check Data Sent 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1430,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "085dd113d1159260",
-        "type": "debug",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Check Data Sent 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1430,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "167b20427b1d050f",
-        "type": "debug",
-        "z": "e59d719bcd361ba8",
-        "g": "44f6c6cb5b54549c",
-        "name": "Check Data Sent 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1430,
-        "y": 180,
+        "x": 890,
+        "y": 100,
         "wires": []
     }
 ]
