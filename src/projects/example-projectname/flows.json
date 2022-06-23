@@ -25,9 +25,9 @@
             "8af71892269d6087"
         ],
         "x": 14,
-        "y": 79,
-        "w": 352,
-        "h": 242
+        "y": 59,
+        "w": 392,
+        "h": 422
     },
     {
         "id": "1d4f9670c7db20f2",
@@ -44,8 +44,8 @@
             "d25cd57ccf7532d6"
         ],
         "x": 14,
-        "y": 339,
-        "w": 192,
+        "y": 539,
+        "w": 232,
         "h": 142
     },
     {
@@ -70,7 +70,7 @@
             "fa8cd1958de2d3f5",
             "448dc34d8aa8d057"
         ],
-        "x": 374,
+        "x": 454,
         "y": 59,
         "w": 393.42858123779297,
         "h": 422
@@ -90,10 +90,10 @@
             "85381d9de524e0b3",
             "8efd5752875ea60d"
         ],
-        "x": 1134,
+        "x": 1294,
         "y": 59,
-        "w": 498,
-        "h": 288
+        "w": 518,
+        "h": 428
     },
     {
         "id": "cf2bc87553d19cde",
@@ -113,10 +113,10 @@
             "5507a1e1d412b7bb",
             "11e5debda79b5e67"
         ],
-        "x": 1134,
-        "y": 499,
+        "x": 1294,
+        "y": 539,
         "w": 518,
-        "h": 568
+        "h": 668
     },
     {
         "id": "8efd5752875ea60d",
@@ -134,10 +134,10 @@
             "4e64e3db9f523ca6",
             "b5c7e1a4659bbb98"
         ],
-        "x": 1334,
+        "x": 1534,
         "y": 139,
-        "w": 272,
-        "h": 182
+        "w": 252,
+        "h": 322
     },
     {
         "id": "9d7ac03fef8b7ff5",
@@ -155,10 +155,10 @@
             "c3b1aa81ed4582d4",
             "18a27b9233a8e852"
         ],
-        "x": 1374,
-        "y": 619,
+        "x": 1534,
+        "y": 659,
         "w": 252,
-        "h": 182
+        "h": 202
     },
     {
         "id": "49323eae60619121",
@@ -175,10 +175,10 @@
             "eb2773efb080ebbd",
             "1f0cce608f385d67"
         ],
-        "x": 1374,
-        "y": 799,
+        "x": 1534,
+        "y": 879,
         "w": 252,
-        "h": 122
+        "h": 142
     },
     {
         "id": "5507a1e1d412b7bb",
@@ -195,10 +195,10 @@
             "ae6034c89dc4cbfc",
             "53858a6c0f673dd1"
         ],
-        "x": 1374,
-        "y": 919,
+        "x": 1534,
+        "y": 1039,
         "w": 252,
-        "h": 122
+        "h": 142
     },
     {
         "id": "44f6c6cb5b54549c",
@@ -222,7 +222,7 @@
             "f9f678aab366ede3",
             "21c718ddfed03c1a"
         ],
-        "x": 774,
+        "x": 894,
         "y": 59,
         "w": 350.57141876220703,
         "h": 422
@@ -239,7 +239,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
+        "x": 560,
         "y": 280,
         "wires": [
             [
@@ -294,7 +294,7 @@
         "statusCode": "200",
         "headers": {},
         "x": 240,
-        "y": 220,
+        "y": 360,
         "wires": []
     },
     {
@@ -311,8 +311,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 230,
-        "y": 180,
+        "x": 270,
+        "y": 440,
         "wires": []
     },
     {
@@ -327,7 +327,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 740,
         "y": 160,
         "wires": [
             [
@@ -347,7 +347,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
+        "x": 750,
         "y": 200,
         "wires": [
             [
@@ -367,7 +367,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
+        "x": 750,
         "y": 240,
         "wires": [
             [
@@ -387,7 +387,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 671.428581237793,
+        "x": 751.428581237793,
         "y": 280,
         "wires": [
             [
@@ -407,7 +407,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 671.428581237793,
+        "x": 751.428581237793,
         "y": 320,
         "wires": [
             [
@@ -427,7 +427,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 661.428581237793,
+        "x": 741.428581237793,
         "y": 360,
         "wires": [
             [
@@ -447,7 +447,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 661.428581237793,
+        "x": 741.428581237793,
         "y": 400,
         "wires": [
             [
@@ -467,7 +467,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 671.428581237793,
+        "x": 751.428581237793,
         "y": 440,
         "wires": [
             [
@@ -483,7 +483,7 @@
         "name": "KPN Connectivity ",
         "info": "Recieve data from KPN Things and responde.",
         "x": 120,
-        "y": 120,
+        "y": 100,
         "wires": []
     },
     {
@@ -493,7 +493,7 @@
         "g": "b7879eac727d0f32",
         "name": "Data Managment",
         "info": "",
-        "x": 480,
+        "x": 560,
         "y": 100,
         "wires": []
     },
@@ -502,7 +502,7 @@
         "type": "inject",
         "z": "e59d719bcd361ba8",
         "g": "1d4f9670c7db20f2",
-        "name": "Test",
+        "name": "Send Test Data",
         "props": [
             {
                 "p": "payload"
@@ -515,8 +515,8 @@
         "topic": "",
         "payload": "[{\"bn\":\"urn:dev:DVNUUID:451346564647 365476325167263576 243:\",\"bt\":1655649139},{\"n\":\"battery\",\"u\":\"%\",\"vs\":\"86.0\"},{\"n\":\"accelerationX\",\"u\":\"m/s2\",\"v\":0.5},{\"n\":\"accelerationY\",\"u\":\"m/s2\",\"v\":9.03},{\"n\":\"accelerationZ\",\"u\":\"m/s2\",\"v\":2.66},{\"n\":\"latitude\",\"u\":\"lat\",\"v\":51.90725},{\"n\":\"longitude\",\"u\":\"lon\",\"v\":4.48934}]",
         "payloadType": "json",
-        "x": 110,
-        "y": 440,
+        "x": 140,
+        "y": 640,
         "wires": [
             [
                 "3090e29df5e1cb24"
@@ -531,7 +531,7 @@
         "name": "Input data test ",
         "info": "A quick test to see incomming data on the end points.",
         "x": 110,
-        "y": 380,
+        "y": 580,
         "wires": []
     },
     {
@@ -539,13 +539,13 @@
         "type": "ubidots_out",
         "z": "e59d719bcd361ba8",
         "g": "9d7ac03fef8b7ff5",
-        "name": "Ubidots Node 1",
+        "name": "Ubidots Device 1",
         "token": "Enter Your Ubidots Token here",
         "label_device": "raspberry-pi",
         "device_label": "Device00",
         "tier": "business",
         "tls_checkbox": true,
-        "x": 1480,
+        "x": 1650,
         "y": 760,
         "wires": []
     },
@@ -555,14 +555,14 @@
         "z": "e59d719bcd361ba8",
         "g": "cf2bc87553d19cde",
         "name": "Identify & Send",
-        "func": "p = msg.payload\n\nID2 = p[0].DVNUUID;\nBc  = p[1].BatteryCent;\nAcx = p[2].AccelerationX;\nAcy = p[3].AccelerationY;\nAcz = p[4].AccelerationZ\nLat = p[5].Latitude\nLon = p[6].Longitude\n\nid = \"DVNUUID\"\nbc = \"Battery%\"\nax = \"AccelerationX\" \nay = \"AccelerationY\"\naz = \"AccelerationZ\"\nla = \"Latitude\"\nlo = \"Longitude\"\n\npo  = \"position\";\npla = \"lat\";\nplo = \"lng\";\n\nmsg.payload = JSON.stringify(p);\n\nif (msg.payload.includes (\"Enter The Device ID Here\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [msg,,];\n}\nelse if (msg.payload.includes (\"Enter The Device ID Here\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [,msg,];\n}\nelse if (msg.payload.includes (\"Enter The Device ID Here\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [,,msg];\n}",
+        "func": "p = msg.payload\n\nID2 = p[0].DVNUUID;\nBc  = p[1].BatteryCent;\nAcx = p[2].AccelerationX;\nAcy = p[3].AccelerationY;\nAcz = p[4].AccelerationZ\nLat = p[5].Latitude\nLon = p[6].Longitude\n\nid = \"DVNUUID\"\nbc = \"Battery%\"\nax = \"AccelerationX\" \nay = \"AccelerationY\"\naz = \"AccelerationZ\"\nla = \"Latitude\"\nlo = \"Longitude\"\n\npo  = \"position\";\npla = \"lat\";\nplo = \"lng\";\n\nmsg.payload = JSON.stringify(p);\n\nif (msg.payload.includes (\"Enter The Device ID Here\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [msg,,];\n}\nelse if (msg.payload.includes (\"Enter The Device ID Here\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [,msg,];\n}\nelse if (msg.payload.includes (\"Enter The Device ID Here\"))//DVNUUID\n{\n    msg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\n    return [,,msg];\n}\nelse\n{\n    msg.payload = \"Device not found, check to see if the ID was enterd Correctly\"\n    return msg;\n}",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
-        "y": 800,
+        "x": 1400,
+        "y": 840,
         "wires": [
             [
                 "0ef2fb7c043b7079",
@@ -583,14 +583,14 @@
         "type": "ubidots_out",
         "z": "e59d719bcd361ba8",
         "g": "49323eae60619121",
-        "name": "Ubidots Node 2",
+        "name": "Ubidots Device 2",
         "token": "Enter Your Ubidots Token here",
         "label_device": "raspberry-pi",
         "device_label": "device01",
         "tier": "business",
         "tls_checkbox": true,
-        "x": 1480,
-        "y": 880,
+        "x": 1650,
+        "y": 920,
         "wires": []
     },
     {
@@ -598,14 +598,14 @@
         "type": "ubidots_out",
         "z": "e59d719bcd361ba8",
         "g": "5507a1e1d412b7bb",
-        "name": "Ubidots Node 3",
+        "name": "Ubidots Device 3",
         "token": "Enter Your Ubidots Token here",
         "label_device": "raspberry-pi",
         "device_label": "device02",
         "tier": "business",
         "tls_checkbox": true,
-        "x": 1480,
-        "y": 1000,
+        "x": 1650,
+        "y": 1080,
         "wires": []
     },
     {
@@ -622,8 +622,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1490,
-        "y": 960,
+        "x": 1650,
+        "y": 1140,
         "wires": []
     },
     {
@@ -640,8 +640,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1490,
-        "y": 840,
+        "x": 1650,
+        "y": 980,
         "wires": []
     },
     {
@@ -658,8 +658,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1490,
-        "y": 720,
+        "x": 1650,
+        "y": 820,
         "wires": []
     },
     {
@@ -667,14 +667,14 @@
         "type": "function",
         "z": "e59d719bcd361ba8",
         "g": "6a97e3205d596f19",
-        "name": "Identify & Send",
+        "name": "Send",
         "func": "p = msg.payload\n\nID  = p[0].DVNUUID;\nBc  = p[1].BatteryCent;\nAcx = p[2].AccelerationX;\nAcy = p[3].AccelerationY;\nAcz = p[4].AccelerationZ\nLat = p[5].Latitude\nLon = p[6].Longitude\n\nd2 = \"DVNUUID\"\nbc = \"Battery%\"\nax = \"AccelerationX\"\nay = \"AccelerationY\"\naz = \"AccelerationZ\"\nla = \"Latitude\"\nlo = \"Longitude\"\n\npo  = \"position\";\npla = \"lat\";\nplo = \"lng\";\n\nmsg.payload = JSON.stringify(p);\nmsg.payload = {[bc]:Bc, [ax]:Acx, [ay]:Acy, [az]:Acz, [la]:Lat, [lo]:Lon, [po]:{[pla]:Lat, [plo]:Lon}};\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
+        "x": 1370,
         "y": 280,
         "wires": [
             [
@@ -688,9 +688,9 @@
         "type": "comment",
         "z": "e59d719bcd361ba8",
         "g": "6a97e3205d596f19",
-        "name": "Ubidots Device End Point",
+        "name": "Output",
         "info": "",
-        "x": 1270,
+        "x": 1370,
         "y": 100,
         "wires": []
     },
@@ -699,10 +699,10 @@
         "type": "comment",
         "z": "e59d719bcd361ba8",
         "g": "cf2bc87553d19cde",
-        "name": "Use Multiple Ubidots Device End Points",
+        "name": "Use Multiple Devices",
         "info": "",
-        "x": 1310,
-        "y": 580,
+        "x": 1420,
+        "y": 620,
         "wires": []
     },
     {
@@ -719,8 +719,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1440,
-        "y": 240,
+        "x": 1660,
+        "y": 420,
         "wires": []
     },
     {
@@ -728,13 +728,13 @@
         "type": "ubidots_out",
         "z": "e59d719bcd361ba8",
         "g": "8efd5752875ea60d",
-        "name": "My first Ubidots End Point",
+        "name": "UBIDOTS",
         "token": "Enter Your Ubidots Token here",
         "label_device": "raspberry-pi",
         "device_label": "MyFirstDevice",
         "tier": "business",
         "tls_checkbox": true,
-        "x": 1470,
+        "x": 1640,
         "y": 280,
         "wires": []
     },
@@ -743,10 +743,10 @@
         "type": "comment",
         "z": "e59d719bcd361ba8",
         "g": "9d7ac03fef8b7ff5",
-        "name": "End Point Devices",
+        "name": "Endpoints",
         "info": "",
-        "x": 1490,
-        "y": 660,
+        "x": 1620,
+        "y": 700,
         "wires": []
     },
     {
@@ -754,9 +754,9 @@
         "type": "comment",
         "z": "e59d719bcd361ba8",
         "g": "8efd5752875ea60d",
-        "name": "End Point Devices",
+        "name": "Endpoint",
         "info": "",
-        "x": 1450,
+        "x": 1620,
         "y": 180,
         "wires": []
     },
@@ -772,7 +772,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
+        "x": 990,
         "y": 200,
         "wires": [
             [
@@ -792,7 +792,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
+        "x": 990,
         "y": 160,
         "wires": [
             [
@@ -812,7 +812,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
+        "x": 990,
         "y": 240,
         "wires": [
             [
@@ -841,7 +841,7 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 1048.571418762207,
+        "x": 1168.571418762207,
         "y": 280,
         "wires": [
             [
@@ -861,7 +861,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 871.428581237793,
+        "x": 991.428581237793,
         "y": 280,
         "wires": [
             [
@@ -881,7 +881,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 871.428581237793,
+        "x": 991.428581237793,
         "y": 320,
         "wires": [
             [
@@ -901,7 +901,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 871.428581237793,
+        "x": 991.428581237793,
         "y": 360,
         "wires": [
             [
@@ -921,7 +921,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 871.428581237793,
+        "x": 991.428581237793,
         "y": 400,
         "wires": [
             [
@@ -941,7 +941,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 871.428581237793,
+        "x": 991.428581237793,
         "y": 440,
         "wires": [
             []
@@ -954,7 +954,7 @@
         "g": "44f6c6cb5b54549c",
         "name": "Ubidots Convertion",
         "info": "",
-        "x": 890,
+        "x": 1010,
         "y": 100,
         "wires": []
     },
@@ -965,8 +965,8 @@
         "g": "cf2bc87553d19cde",
         "name": "Additional Ubidots Options",
         "info": "",
-        "x": 1270,
-        "y": 540,
+        "x": 1430,
+        "y": 580,
         "wires": []
     }
 ]
